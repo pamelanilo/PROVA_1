@@ -9,6 +9,11 @@
 <body>
     <form method="get" th:action="@{/}" class="filtros"></form>
     <input type="text" name="texto" th:value="${textoSelecionado}"> 
+    <select name="cargo">
+        <option value="" th:selected="${cargoSelecionado == ''}">Todos</option>
+        <option th:each = "c : ${cargos}"
+        ></option>
+    </select>
     <button type="submit">Filtrar</button> 
     <a th:href="@{/}" class="limpar">Limpar</a> 
 </body>

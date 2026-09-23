@@ -1,4 +1,4 @@
-package com.example.CandidatosTSE.service;
+package com.example.CandidatosTse.service;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

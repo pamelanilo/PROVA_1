@@ -1,4 +1,4 @@
-package com.example.CandidatosTSE.model;
+package com.example.CandidatosTse.model;
 
 import java.time.LocalDate;
 import java.time.Period;
